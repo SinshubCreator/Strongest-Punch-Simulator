@@ -1,0 +1,29 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "SinsHub",
+     Style = 24,
+     SizeX = 500,
+     SizeY = 200,
+     Theme = "Dark"
+})
+
+local Page = UI.New({
+    Title = "Build A Boat",
+
+
+})
+
+Page.Button({
+    Text = "Build A Boat",
+    Callback = function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/RegularVynixu/Vynixius/main/Build%20A%20Boat%20For%20Treasure/BABFT"))()
+
+
+
+
+
+
+
+    end
+})
