@@ -1,0 +1,33 @@
+local Material = loadstring(game:HttpGet("https://raw.githubusercontent.com/Kinlei/MaterialLua/master/Module.lua"))()
+
+local UI = Material.Load({
+     Title = "SinsHub",
+     Style = 24,
+     SizeX = 500,
+     SizeY = 200,
+     Theme = "Dark"
+})
+
+local Page = UI.New({
+    Title = "Lumber Tycoon 2",
+
+
+})
+
+Page.Button({
+    Text = "Lumber Tycoon 2",
+    Callback = function()
+        loadstring(game:HttpGetAsync'https://cdn.applebee1558.com/bark/bark.lua')('bark > blood :)')
+
+
+
+
+
+
+
+
+
+
+
+    end
+})
