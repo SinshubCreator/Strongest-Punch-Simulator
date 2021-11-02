@@ -1,0 +1,13 @@
+--[[
+Themes:
+    LightTheme
+    DarkTheme
+    GrapeTheme
+    BloodTheme
+    Ocean
+    Midnight
+    Sentinel
+    Synapse
+]]--
+getgenv().ThemeOption = "Midnight"  -- The
+loadstring(game:HttpGet("https://raw.githubusercontent.com/xHeptc/BloxFruitsNew/main/src.lua"))()
